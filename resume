@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head lang="en">
+<head>
+    <meta charset="UTF-8" content="width=device-width,initial-scale=1">
+    <title>RESUME</title>
+<style>
+    div.gallery{
+     margin:5px;
+     border:1px solid #ddd
+     float:right;
+     width:100px;
+     height=auto;
+     border-radius:50%;
+     padding:10px
+     }
+     .header{
+     background-color:#f1f1f1;
+     padding:15px;
+     text-align:center;
+     }
+     .header2{
+     background-color:#f1f1f1;
+     padding:5px;
+     text-align:center;}
+     .footer{
+     background-color:#f1f1f1;
+     padding:5px;
+     text-align:center;
+     }
+     body{
+     background-color:#FFE4E1;
+     }
+</style>
+</head>
+<body>
+<div class="header">
+    <h1><u><i>RESUME</i></u></h1><br>
+</div><br>
+<div class="header2">
+    <h2>Personal Details</h2>
+</div>
+<div class="gallery">
+    <img align="middle" src="C:\Users\shriya s\Pictures\riya.jpg" alt="profile image" width="130" height="130">
+</div>
+<b>NAME:</b>
+<input type="text" name="name" value="Shriya.S" readonly>
+<br><br>
+<b>AGE:</b>
+<input type="text" name="age" value="19" readonly>
+<br><br>
+<b>DATE OF BIRTH:</b>
+<input type="date" name="date"  readonly>
+<br><br>
+<b> FATHER NAME:</b>
+<input type="text" name="fathername" value="Shivakumar.RN" readonly>
+<br><br>
+<b>ADDRESS:</b>
+<input type="text" name="address" value="RR Nagar, Bangalore-98, Karnataka" size="35" readonly>
+<br><br>
+<b>NATIONALITY:</b>
+<input type="text" name="nationality" value="Indian" readonly>
+<br><br>
+<b>GENDER:</b>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female<br><br>
+<b>CURRENT STATUS:</b>
+<input type="radio" name="status">Working
+<input type="radio" name="status">Not working<br><br>
+<b>CONTACT NUMBER:</b>
+<input type="text" name="num" value="636022973" readonly><br><br>
+<b>EMAIL ID:</b>
+<input type="email" name="email" value="shriya.shivakumar@gmail.com" size="30" readonly><br><br>
+<b>LANGUAGES:</b>
+<input type="text" name="languages" value="English, Hindi, Kannada"  readonly><br><br>
+<b>ACHIEVEMENTS:</b>
+<input type="text" name="achievements" value="Bharatanatyam Junior Certificate" size="30" readonly><br><br>
+<b>EDUCATIONAL QUALIFICATION:</b><br><br>
+<table border="10">
+    <tr>
+        <th>Course</th>
+        <th>University</th>
+        <th>Subject</th>
+        <th>Year of passing</th>
+        <th>Percentage</th>
+    </tr>
+    <tr>
+        <td>PUC</td>
+        <td>RNS PU COLLEGE</td>
+        <td>PCMB</td>
+        <td>2020</td>
+        <td>86.16%</td>
+    </tr>
+     <tr>
+        <td>SSLC</td>
+        <td>SWARGARANI SCHOOL</td>
+        <td>ICSE BOARD</td>
+        <td>2018</td>
+        <td>86.83%</td>
+    </tr>
+</table><br>
+<b>SKILLS</b><br>
+<ul>
+    <li>Python,Django,Flask</li>
+    <li>SQL</li>
+    <li>HTML,CSS,Javascript</li>
+    <li>Microsoft PPT, Word</li>
+</ul>
+<div class="footer">
+    <p>***********************************8*******************************************************************************************************************************************************************************</p>
+</div>
+</body>
+</html>
